@@ -16,3 +16,7 @@ Aby sprawdzić stronę lokalnie, uruchom z tego katalogu prosty serwer HTTP, np.
 ## Osadzenie aplikacji testowej
 
 W `pages/testy.html` znajduje się iframe jako placeholder. Ustaw jego atrybut `src` na publiczny adres aplikacji testowej, aby wyświetlać ją na stronie.
+
+## Globalny font
+
+Font dla wszystkich stron jest skonfigurowany w `assets/css/styles.css`: `@import` pobiera go z Google Fonts, a zmienna `--font-family` ustawia rodzinę i fonty zastępcze. Przy zmianie fontu zaktualizuj oba wpisy w tym pliku. Nowe strony powinny dołączać ten arkusz stylów; nie wymagają osobnych linków do Google Fonts.
